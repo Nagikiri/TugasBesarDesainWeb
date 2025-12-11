@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+/* Smooth scroll behavior untuk semua halaman */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scroll offset untuk anchor links agar tidak tertutup navbar */
+:target {
+  scroll-margin-top: 80px;
+}

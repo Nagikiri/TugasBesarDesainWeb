@@ -1,0 +1,27 @@
+<script setup>
+
+import backPotensiImage from '@/assets/images/BackPaduan.jpg';
+</script>
+<template>
+  <div class="relative bg-white overflow-hidden">
+    <!-- Background Image dengan Overlay -->
+    <div 
+      class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+      :style="{ backgroundImage: `url(${backPotensiImage})` }"
+    >
+      <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/40"></div>
+    </div>
+
+    <!-- Content utama -->
+    <div class="relative max-w-7xl mx-auto px-6 py-24 md:py-36">
+      <div class="text-center">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4">
+          Potensi Jual
+        </h1>
+        <p class="mt-3 text-lg text-gray-200 max-w-2xl mx-auto">
+          Harga pasar terkini, tren penjualan, dan wilayah potensial untuk usaha ternak di Balikpapan (Update November 2025)
+        </p>
+      </div>
+    </div>
+  </div>
+</template>
