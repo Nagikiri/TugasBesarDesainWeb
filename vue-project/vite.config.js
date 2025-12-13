@@ -19,6 +19,6 @@ export default defineConfig({
   },
   base: '/TugasBesarDesainWeb/',
   build: {
-    outDir: 'docs',
+    outDir: '../docs',
   },
 })
